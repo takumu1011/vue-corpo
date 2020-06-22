@@ -20,7 +20,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .overview{
   width: 560px;
   margin: 50px auto;

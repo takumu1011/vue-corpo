@@ -2,9 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Works from '../views/Works.vue'
-import Fuga from '../views/Fuga.vue'
-import Bar from '../views/Bar.vue'
-import Baz from '../views/Baz.vue'
+import News from '../views/News.vue'
 
 Vue.use(VueRouter)
 
@@ -28,24 +26,13 @@ Vue.use(VueRouter)
     component: Works
   },
   {
-    path: '/fuga',
-    name: 'Fuga',
-    component: Fuga
-  },
-  {
-    path: '/bar',
-    name: 'Bar',
-    component: Bar
-  },
-  {
-    path: '/baz',
-    name: 'Baz',
-    component: Baz
+    path: '/news',
+    name: 'News',
+    component: News
   }
 ]
 
 const router = new VueRouter({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })

@@ -18,9 +18,13 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .l-h {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
   padding: 20px 0;
   background-color: #000;
 }

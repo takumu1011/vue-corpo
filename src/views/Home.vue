@@ -72,7 +72,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .l-home{
   padding: 20px 0;
   color: #f5f5f5;

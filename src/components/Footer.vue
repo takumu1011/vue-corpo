@@ -6,7 +6,7 @@
   </footer>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
   .l-f {
     width: 100%;
     background-color: #000;
